@@ -10,7 +10,7 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hola, soy Oliver Torres
             <br />
-            Me encanta construir aplicaciones web.
+            Me encanta construir aplicaciones web
           </h1>
           <p className="mb-8 leading-relaxed px-4 sm:px-0">
             Soy un Joven de 25 Años didicado y apasionado por la programacion web. Me especializo como desarrollador Laravel con conocimientos en React.

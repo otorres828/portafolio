@@ -19,8 +19,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <div
              
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -36,10 +35,11 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed pb-4">{project.description}</p>
+                  <a href={project.link} className="rounded-lg p-2 text-white bg-green-600">Ver Mas</a>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

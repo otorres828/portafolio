@@ -1,7 +1,6 @@
-
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-import {testimonials } from "../data";
+import { testimonials } from "../data";
 
 export default function Testimonials() {
   return (
@@ -13,9 +12,11 @@ export default function Testimonials() {
         </h1>
         <div className="flex flex-wrap m-4">
           {testimonials.map((testimonial) => (
-            <a className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-30 w-full p-4 md:w-1/2 md btn cursor-pointer rounded-lg" href={`https://github.com/${testimonial.company}`}>
+            <div className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-30 w-full p-4 md:w-1/2 md btn  rounded-lg">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                <TerminalIcon className="block w-8 text-gray-500 mb-4" />
+                <a href={`https://github.com/${testimonial.company}`}>
+                  <TerminalIcon className="block w-8 text-gray-500 mb-4" />
+                </a>
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <img
@@ -28,12 +29,12 @@ export default function Testimonials() {
                       {testimonial.name}
                     </span>
                     <span className="text-gray-500 text-sm uppercase">
-                      {testimonial.company}
+                      @{testimonial.company}
                     </span>
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
