@@ -21,7 +21,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative h-80">
+              <div className="flex relative min-h-80 md:h-80">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-center"

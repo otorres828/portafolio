@@ -3,7 +3,7 @@ export const projects = [
     title: "Mansion de Cristo",
     subtitle: "Sistema de Registro Celular + Blog",
     description:
-      "La pagina web de la iglesia internacional Mansion de Cristo; posee distintas secciones publicas y privadas, donde todas son autoadministrables desde un panel, tambien cuenta un sistema interno de registro y control de sus miembros como de sus reuniones jerarquicas.",
+      "La pagina web de la iglesia internacional Mansion de Cristo; posee distintas secciones publicas y privadas, donde todas son autoadministrables desde un panel, tambien cuenta un sistema de registro y control de sus miembros.",
     image:'./mansion.gif',
     link: "https://mansiondecristo.com",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "Cooperacion Economica UCAB -Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
-      "Esta es una plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
+      "Plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
     image: "./oceeucabgy.gif",
     link: "https://cooperacion-economica.herokuapp.com/",
   },
