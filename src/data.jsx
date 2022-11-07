@@ -16,7 +16,7 @@ export const projects = [
     link: "https://vozip.netlify.app/",
   },
   {
-    title: "Cooperacion Economica UCAB -Guayana",
+    title: "Cooperacion Economica UCAB Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
       "Plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
