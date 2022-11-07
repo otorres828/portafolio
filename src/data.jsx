@@ -19,7 +19,7 @@ export const projects = [
     title: "Cooperacion Economica UCAB -Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
-      "Esta es una plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. En dicha plataforma los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
+      "Esta es una plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
     image: "./oceeucabgy.gif",
     link: "https://cooperacion-economica.herokuapp.com/",
   },
