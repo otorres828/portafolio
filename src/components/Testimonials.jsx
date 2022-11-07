@@ -12,12 +12,12 @@ export default function Testimonials() {
         </h1>
         <div className="flex flex-wrap m-4">
           {testimonials.map((testimonial) => (
-            <div className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-30 w-full p-4 md:w-1/2 md btn  rounded-lg">
+            <div className=" transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110  duration-30 w-full p-4 md:w-1/2 md btn  rounded-lg">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <a href={`https://github.com/${testimonial.company}`}>
                   <TerminalIcon className="block w-8 text-gray-500 mb-4" />
                 </a>
-                <p className="leading-relaxed mb-6 select">{testimonial.quote}</p>
+                <p className="leading-relaxed mb-6 select-none">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"

@@ -17,12 +17,11 @@ export default function Projects() {
             Estos son algunos de los proyectos que he construido con laravel 9. Estan en su version oficial y Demo
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <div
-             
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative h-80">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-center"
