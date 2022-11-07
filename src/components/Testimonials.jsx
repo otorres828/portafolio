@@ -17,7 +17,7 @@ export default function Testimonials() {
                 <a href={`https://github.com/${testimonial.company}`}>
                   <TerminalIcon className="block w-8 text-gray-500 mb-4" />
                 </a>
-                <p className="leading-relaxed mb-6">{testimonial.quote}</p>
+                <p className="leading-relaxed mb-6 select">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"

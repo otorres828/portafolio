@@ -8,6 +8,14 @@ export const projects = [
     link: "https://mansiondecristo.com",
   },
   {
+    title: "Video Chat",
+    subtitle: "Agora - Video Chat",
+    description:
+      "Video chat es una app sencilla en la cual simula la transmision de audio y video atraves del protocolo VozIP",
+    image: './videochat.gif',
+    link: "https://vozip.netlify.app/",
+  },
+  {
     title: "Cooperacion Economica UCAB -Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
