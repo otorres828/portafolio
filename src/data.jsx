@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id:1,
     title: "Mansion de Cristo",
     subtitle: "Sistema de Registro Celular + Blog",
     description:
@@ -8,6 +9,7 @@ export const projects = [
     link: "https://mansiondecristo.com",
   },
   {
+    id:2,
     title: "Video Chat",
     subtitle: "Agora - Video Chat",
     description:
@@ -16,6 +18,7 @@ export const projects = [
     link: "https://vozip.netlify.app/",
   },
   {
+    id:3,
     title: "Cooperacion Economica UCAB Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
@@ -24,6 +27,7 @@ export const projects = [
     link: "https://cooperacion-economica.herokuapp.com/",
   },
   {
+    id:4,
     title: "Ucab Line",
     subtitle: "Ucab Line - Lineas de Tiempo",
     description:
@@ -32,6 +36,7 @@ export const projects = [
     link: "https://ucabline.ml",
   },
   {
+    id:5,
     title: "Ucab Rides",
     subtitle: "Pide Cola - Ucab Rides",
     description:
@@ -43,6 +48,7 @@ export const projects = [
 
 export const testimonials = [
   {
+    id:1,
     quote:
       "En terminos simples, Oliver es el compañero que siempre se quiere tener. Apasionado por la programacion y dedicado al trabajo. Muy amable y proactivo. Trabaje con el en el proyecto de Ucab Line, dirigido a la coordinacion de desarrollo estudiantil de la Universidad Catolica Andres Bello.",
     image: "./wilter.webp",
@@ -50,6 +56,7 @@ export const testimonials = [
     company: "wilterD",
   },
   {
+    id:2,
     quote:
       "Oliver es un gran compañero, es apasionado por la programacion y dedicado al mejoramiento continuo. Trabaje con el en el proyecto de Mansion de Cristo, dirigido a la iglesia internacional Mansion de Cristo.",
     image: "./alfonzo.png",
