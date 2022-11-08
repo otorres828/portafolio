@@ -37,6 +37,15 @@ export const projects = [
   },
   {
     id:5,
+    title: "Ucab Form",
+    subtitle: "Ucab Form - Encuestas",
+    description:
+      "Ucab form en terminos sencillos, es pp parecida a google form pero con mayor flexibilidad y funcionalidades. De este proyecto perteneci al equipo desarrollador.",
+    image: "./ucabform.gif",
+    link: "https://ucab-forms-db.web.app/",
+  },
+  {
+    id:6,
     title: "Ucab Rides",
     subtitle: "Pide Cola - Ucab Rides",
     description:
