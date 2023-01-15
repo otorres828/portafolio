@@ -10,24 +10,6 @@ export const projects = [
   },
   {
     id:2,
-    title: "Video Chat",
-    subtitle: "Agora - Video Chat",
-    description:
-      "Video chat es una app sencilla en la cual simula la transmision de audio y video atraves del protocolo VozIP",
-    image: './videochat.gif',
-    link: "https://vozip.netlify.app/",
-  },
-  {
-    id:3,
-    title: "Cooperacion Economica UCAB Guayana",
-    subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
-    description:
-      "Plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
-    image: "./oceeucabgy.gif",
-    link: "https://cooperacion-economica.herokuapp.com/",
-  },
-  {
-    id:4,
     title: "Ucab Line",
     subtitle: "Ucab Line - Lineas de Tiempo",
     description:
@@ -36,16 +18,7 @@ export const projects = [
     link: "https://ucabline.ml",
   },
   {
-    id:5,
-    title: "Ucab Form",
-    subtitle: "Ucab Form - Encuestas",
-    description:
-      "Ucab form en terminos sencillos, es una app parecida a google form pero con mayor flexibilidad y funcionalidades. De este proyecto perteneci al equipo documentador.",
-    image: "./ucabform.gif",
-    link: "https://ucab-forms-db.web.app/",
-  },
-  {
-    id:6,
+    id:3,
     title: "Ucab Rides",
     subtitle: "Pide Cola - Ucab Rides",
     description:
@@ -53,6 +26,35 @@ export const projects = [
     image: "./ucabrides.png",
     link: "https://ucabrides.vercel.app/",
   },
+  {
+    id:4,
+    title: "Video Chat",
+    subtitle: "Agora - Video Chat",
+    description:
+      "Video chat es una app sencilla en la cual simula la transmision de audio y video atraves del protocolo VozIP",
+    image: './videochat.gif',
+    link: "https://vozip.netlify.app/",
+  },
+  {
+    id:5,
+    title: "Cooperacion Economica UCAB Guayana",
+    subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
+    description:
+      "Plataforma dedicada a brindar informacion sobre la solicitud y renovacion del proceso de ayuda economica en la Universidad Catolica Andres Bello - Sede Guayana. Los estudiantes pueden realizar sus solicitudes de renovacion del apoyo en cuestion.",
+    image: "./oceeucabgy.gif",
+    link: "https://cooperacion-economica.herokuapp.com/",
+  },
+
+  {
+    id:6,
+    title: "Ucab Form",
+    subtitle: "Ucab Form - Encuestas",
+    description:
+      "Ucab form en terminos sencillos, es una app parecida a google form pero con mayor flexibilidad y funcionalidades. De este proyecto perteneci al equipo documentador.",
+    image: "./ucabform.gif",
+    link: "https://ucab-forms-db.web.app/",
+  },
+
 ];
 
 export const testimonials = [
