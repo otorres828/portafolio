@@ -13,7 +13,7 @@ export default function About() {
             Me encanta construir aplicaciones web
           </h1>
           <p className="mb-8 leading-relaxed px-4 sm:px-0">
-            Soy un Joven de 25 Años didicado y apasionado por la programacion web. Me especializo como desarrollador Laravel con conocimientos en React.
+            Soy un Joven de 25 Años dedicado y apasionado por la programacion web. Me especializo como desarrollador Laravel con conocimientos en React.
             Actualmente estoy cursando mi Penultimo semestre de Ingenieria en Informatica. Si quieres conocerme un poco mas te invito a descargar mi CV o seguirme en mis redes sociales.
           </p>
           <div className="flex justify-center">
