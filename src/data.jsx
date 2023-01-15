@@ -51,7 +51,7 @@ export const projects = [
     description:
       "Ucab Rides es una app que sigue en desarrollo, tiene el fin de que los estudiantes de una universidad en especifico puedan pedir cola entre ellos mismos.",
     image: "./ucabrides.png",
-    link: "https://ucabrides.netlify.app/",
+    link: "https://ucabrides.vercel.app/",
   },
 ];
 
