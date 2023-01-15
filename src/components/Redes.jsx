@@ -4,6 +4,9 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+import github from "../images/icons/github.png";
+import whatsapp from "../images/icons/icons8-whatsapp.svg";
+import gmail from "../images/icons/gmail_144.svg";
 
 export default function Redes() {
   const [open, setOpen] = React.useState(false);
@@ -43,17 +46,18 @@ export default function Redes() {
               <div className="flex justify-center">
                 <div>
                   <a href="https://wa.me/584148848537">
-                    <img src="./icons8-whatsapp.svg" />
+                    <img src={whatsapp} />
                   </a>
                 </div>
                 <div>
                   <a href="https://github.com/otorres828">
-                  <img className="opacity-80" src="./github.png" />
+                  
+                  <img className="opacity-80" src={github} />
                   </a>
                 </div>
                 <div >
                   <a href="mailto:olivertorres1997@gmail.com">
-                    <img src="./gmail_144.svg" />
+                    <img src={gmail} />
                   </a>
                 </div>
               </div>
