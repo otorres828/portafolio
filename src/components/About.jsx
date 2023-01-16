@@ -2,7 +2,7 @@
 import React from "react";
 import Redes from "./Redes";
 import oliver from "../images/oliver.jpeg";
-
+import cv from "../cv OLIVER.pdf"
 export default function About() {
   // ./coding.svg
   return (
@@ -17,8 +17,8 @@ export default function About() {
           <p className="mb-8 leading-relaxed px-4 sm:px-0">
           Soy un Joven de 25 Años dedicado y apasionado por la programación web. Me especializo como desarrollador Laravel con conocimientos en React Js. Actualmente estoy cursando mi Penúltimo semestre de Ingeniería en Informática. Si quieres conocerme un poco más te invito a descargar mi CV o seguirme en mis redes sociales.</p>
           <div className="flex justify-center">
-            <a
-              href="#contact"
+            <a download={cv}
+            
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">
               CV
             </a>
