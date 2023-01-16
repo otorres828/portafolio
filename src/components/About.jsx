@@ -18,7 +18,7 @@ export default function About() {
           Soy un Joven de 25 Años dedicado y apasionado por la programación web. Me especializo como desarrollador Laravel con conocimientos en React Js. Actualmente estoy cursando mi Penúltimo semestre de Ingeniería en Informática. Si quieres conocerme un poco más te invito a descargar mi CV o seguirme en mis redes sociales.</p>
           <div className="flex justify-center">
             <a download={cv}
-            
+            href={cv}
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">
               CV
             </a>
