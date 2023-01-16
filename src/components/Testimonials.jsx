@@ -38,6 +38,12 @@ export default function Testimonials() {
             </div>
           ))}
         </div>
+        {/* <button 
+    
+        className=" transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110  duration-30 p-3 shadow hover:bg-blue-400 text-xl justify-center text-center bg-blue-500 rounded-lg text-white font-semibold">
+          Ver Mas
+        </button> */}
+        
       </div>
     </section>
   );

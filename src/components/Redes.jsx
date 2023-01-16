@@ -5,7 +5,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import github from "../images/icons/github.png";
-import whatsapp from "../images/icons/icons8-whatsapp.svg";
+import whatsapp from "../images/icons/whatsApp_icon.png";
 import gmail from "../images/icons/gmail_144.svg";
 
 export default function Redes() {
