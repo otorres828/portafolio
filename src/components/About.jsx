@@ -1,8 +1,10 @@
 
 import React from "react";
 import Redes from "./Redes";
+import oliver from "../images/oliver.jpeg";
 
 export default function About() {
+  // ./coding.svg
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 pt-10 md:pt-20 pb-10 md:flex-row flex-col items-center">
@@ -13,9 +15,7 @@ export default function About() {
             Me encanta construir aplicaciones web
           </h1>
           <p className="mb-8 leading-relaxed px-4 sm:px-0">
-            Soy un Joven de 25 Años dedicado y apasionado por la programacion web. Me especializo como desarrollador Laravel con conocimientos en React.
-            Actualmente estoy cursando mi Penultimo semestre de Ingenieria en Informatica. Si quieres conocerme un poco mas te invito a descargar mi CV o seguirme en mis redes sociales.
-          </p>
+          Soy un Joven de 25 Años dedicado y apasionado por la programación web. Me especializo como desarrollador Laravel con conocimientos en React Js. Actualmente estoy cursando mi Penúltimo semestre de Ingeniería en Informática. Si quieres conocerme un poco más te invito a descargar mi CV o seguirme en mis redes sociales.</p>
           <div className="flex justify-center">
             <a
               href="#contact"
@@ -30,11 +30,11 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110  duration-30">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-lg border-collapse"
             alt="hero"
-            src='./coding.svg'
+            src="./coding.svg"
           />
         </div>
       </div>
