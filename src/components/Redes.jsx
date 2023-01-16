@@ -6,7 +6,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import github from "../images/icons/github.png";
 import whatsapp from "../images/icons/whatsApp_icon.png";
-import gmail from "../images/icons/gmail_144.svg";
+import gmail from "../images/icons/gmail.png";
 
 export default function Redes() {
   const [open, setOpen] = React.useState(false);
