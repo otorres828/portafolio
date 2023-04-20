@@ -9,6 +9,7 @@ import ucabrides from "./images/project/ucabrides.png"
 import agora from "./images/project/videochat.gif"
 import oceeucabgy from "./images/project/oceeucabgy.gif"
 import ucabfoms from "./images/project/ucabform.gif"
+import chatgpt from "./images/project/chatgpt.png"
 
 export const projects = [
   {
@@ -22,6 +23,15 @@ export const projects = [
   },
   {
     id:2,
+    title: "Clone ChatGpt",
+    subtitle: "Oliver GPT-3",
+    description:
+      "Oliver GPT es un clone del chatbot chatgpt-3.",
+    image: chatgpt,
+    link: "https://oliver-gpt3.vercel.app/",
+  },
+  {
+    id:3,
     title: "Ucab Line",
     subtitle: "Ucab Line - Lineas de Tiempo",
     description:
@@ -30,7 +40,7 @@ export const projects = [
     link: "https://ucabline.ml",
   },
   {
-    id:3,
+    id:4,
     title: "Ucab Rides",
     subtitle: "Pide Cola - Ucab Rides",
     description:
@@ -39,7 +49,7 @@ export const projects = [
     link: "https://ucabrides.vercel.app/",
   },
   {
-    id:4,
+    id:5,
     title: "Video Chat",
     subtitle: "Agora - Video Chat",
     description:
@@ -48,7 +58,7 @@ export const projects = [
     link: "https://vozip.netlify.app/",
   },
   {
-    id:5,
+    id:6,
     title: "Cooperacion Economica UCAB Guayana",
     subtitle: "Plataforma de Solicitud y Renovacion del Proceso de Ayuda Economica",
     description:
@@ -58,7 +68,7 @@ export const projects = [
   },
 
   {
-    id:6,
+    id:7,
     title: "Ucab Form",
     subtitle: "Ucab Form - Encuestas",
     description:
